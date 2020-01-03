@@ -17,6 +17,7 @@ class Meal {
   final bool isLactoseFree;
   final bool isVegetarian;
   final bool isVegan;
+  final Function removeItem;
 
   const Meal(
       {@required this.id,
@@ -31,5 +32,6 @@ class Meal {
       @required this.affordability,
       @required this.isGlutenFree,
       @required this.isLactoseFree,
+      @required this.removeItem,
       @required this.isVegetarian});
 }
